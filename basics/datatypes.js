@@ -98,3 +98,28 @@ console.log(null >= 0);
 
 console.log(undefined > 0);
 
+//Primitive Datatypes : string , number, boolean, null, undefined, symbol, bigInt
+//Non primitive Datatypes : Array, Object , function
+
+//Memory Allocation
+//stack (primitive datatypes) yo ma copy milxa ra value change garda hunna
+//heap (N0n primitive datatypes) yo ma referenece milxa value change garda change hunxa
+
+let name1 = "Jeewan"
+let name2 = name1
+name2 = "Aidi"
+
+console.log(name1)
+console.log(name2)
+
+let detail = {
+    name: "Jeewan",
+    age: 20
+}
+
+let detail2 = detail
+
+detail2.name ="Aidi"
+
+console.log(detail)
+console.log(detail2)
